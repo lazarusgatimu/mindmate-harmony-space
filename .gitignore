@@ -11,3 +11,4 @@ dmypy.json
 .jac/
 *.jac
 mindmate_clean/
+jac/.jaseci_logs/
