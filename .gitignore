@@ -9,6 +9,15 @@ venv/
 .dmypy.json
 dmypy.json
 .jac/
-*.jac
 mindmate_clean/
 jac/.jaseci_logs/
+
+# Jaseci specific
+.jac/                           # Jaseci cache directory
+*.jac.ir                       # Intermediate representation files
+js.session                      # Session files
+
+# Keep these .jac files tracked:
+# *.jac                         # REMOVED - too broad
+.gitignore.backup
+venv310/
