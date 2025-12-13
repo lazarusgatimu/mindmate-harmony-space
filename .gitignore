@@ -21,3 +21,5 @@ js.session                      # Session files
 # *.jac                         # REMOVED - too broad
 .gitignore.backup
 venv310/
+.gitignore.backup
+venv310/
